@@ -9,16 +9,7 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
           alt="Background"
-          className="opacity-30"
-        />
-      </div>
-      <div className="absolute bottom-0 left-0 z-0">
-        <Image
-          src="/kiribawah.png"
-          layout="fill"
-          objectFit="cover"
-          alt="Background"
-          className="opacity-30"
+          className="opacity-20"
         />
       </div>
       <div className="flex-grow flex items-center justify-center p-10">
@@ -36,11 +27,11 @@ export default function Home() {
               <div className="w-[200px] h-[2px] bg-[#837f638e]"></div>
             </div>
           </p>
-          <p className="mt-10">BRIPTU Rama Wijaya, S.H</p>
-          <p>Putra Bapak AIPTU Andi Wijaya & Ibu Sri Utriyah</p>
-          <p>dengan</p>
-          <p>Dewi A&apos;syah, S.Pd</p>
-          <p>Putra Bapak Mukhibbin Akhmad & Ibu Takhta Khaulillah</p>
+          <p className="mt-10 text-2xl font-bold my-3" style={{ fontFamily: 'custom' }}>BRIPTU Rama Wijaya, S.H</p>
+          <p className="">Putra Bapak AIPTU Andi Wijaya & Ibu Sri Utriyah</p>
+          <p className="my-10 font-bold">dengan</p>
+          <p className="mt-10 text-2xl font-bold my-3" style={{ fontFamily: 'custom' }}>Dewi A&apos;syah, S.Pd</p>
+          <p className="">Putra Bapak Mukhibbin Akhmad & Ibu Takhta Khaulillah</p>
           <div className="flex justify-center mb-5 mt-10">
             <div className="w-[200px] h-[2px] bg-[#837f638e]"></div>
           </div>
