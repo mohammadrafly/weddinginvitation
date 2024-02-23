@@ -66,13 +66,13 @@ export default function Home() {
           <div className="mt-10 font-semibold">
             <p>Pukul: 19.00 - Selesai</p>
             <p>
-              Bertempat: Jl. Sunankalijaga No.17 <br/>
+              Bertempat: Jl. Sunankalijaga <br/>
               Perum Wirosari II, Kel, Sambong <br/>
               Kec. Batang, Kab. Batang
             </p>
+            <p>Acara : Ramah tamah</p>
           </div>
         </div>
-
       </div>
       <div className="bg-[#837f63] text-white flex items-center justify-center text-center h-[200px] p-5">
         <div className="w-[500px]">
