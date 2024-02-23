@@ -1,6 +1,26 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/kananatas.png"
+          layout="fill"
+          objectFit="cover"
+          alt="Background"
+          className="opacity-30"
+        />
+      </div>
+      <div className="absolute bottom-0 left-0 z-0">
+        <Image
+          src="/kiribawah.png"
+          layout="fill"
+          objectFit="cover"
+          alt="Background"
+          className="opacity-30"
+        />
+      </div>
       <div className="flex-grow flex items-center justify-center p-10">
         <div className="text-center text-black">
           <p className="text-base font-semibold">
