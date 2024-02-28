@@ -23,10 +23,10 @@ export default function Home() {
           </p>
           <p className="text-base font-semibold mt-5">
             Qs. Ar-Ruum : 21
-            <div className="flex justify-center my-3">
-              <div className="w-[200px] h-[2px] bg-[#837f638e]"></div>
-            </div>
           </p>
+          <div className="flex justify-center my-3">
+            <div className="w-[200px] h-[2px] bg-[#837f638e]"></div>
+          </div>
           <p className="mt-10 text-2xl font-bold my-3" style={{ fontFamily: 'custom' }}>BRIPTU Rama Wijaya, S.H</p>
           <p className="">Putra Bapak AIPTU Andi Wijaya & Ibu Sri Utriyah</p>
           <p className="my-10 font-bold">dengan</p>
@@ -36,11 +36,15 @@ export default function Home() {
             <div className="w-[200px] h-[2px] bg-[#837f638e]"></div>
           </div>
           <p className="font-semibold">
-            Dengan penuh rasa syukur disertai memohon rahmat dan ridhoNya, <br/>
-            kami bermaksud menyelenggarakan resepsi pernikahan putra-putri <br/>
-            kami yang inysa Allah akan dilaksanakan pada :
+            Tanpa mengurangi rasa hormat, perkenankan kami mengundang <br/>
+            Bapak/Ibu/Saudara/i, teman sekaligus sahabat, <br/>
+            untuk menghadiri acara Ramah Tamah Pernikahan kami:
+
           </p>
-          <div className="flex justify-center mt-10 font-bold text-[#837f63]">
+          <div className="flex justify-center mt-5 font-bold text-[#837f63]">
+            <p className="text-xl">SELASA</p>
+          </div>
+          <div className="flex justify-center mt-2 font-bold text-[#837f63]">
             <div className="">
               <div className="flex justify-center">
                 <div className="w-[75px] h-[2px] bg-[#837f638e]"></div>
